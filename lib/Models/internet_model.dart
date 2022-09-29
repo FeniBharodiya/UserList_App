@@ -25,7 +25,7 @@ class NetWorkConection {
                     style: TextStyle(fontSize: 29, fontWeight: FontWeight.w500),
                   ),
                 ),
-              gi  subtitle: Padding(
+                subtitle: Padding(
                   padding: EdgeInsets.only(left: 16, top: 30),
                   child: Text(
                     "Please Check Your Internet Connectivity (-_-)",
@@ -51,23 +51,21 @@ class NetWorkConection {
                             },
                             style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(5.0),
-                              side: const BorderSide(color: Colors.blue),
+                                borderRadius: BorderRadius.circular(5.0),
+                                side: const BorderSide(color: Colors.blue),
+                              ),
                             ),
-                            
-                            ),
-                            // color: Colors.white, 
+                            // color: Colors.white,
                             // padding: EdgeInsets.only(
                             //     left: 45, right: 45, top: 15, bottom: 15),
-                             child: const Text(
+                            child: const Text(
                               "OK",
-                              style: TextStyle(
-                                  color: Colors.white, fontSize: 20),
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 20),
                             ),
-                            
                           ),
                         ),
-                      ),  
+                      ),
                       const SizedBox(
                         width: 20,
                       ),
