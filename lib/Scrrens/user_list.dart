@@ -14,6 +14,7 @@ class UserList extends StatefulWidget {
 
 class _UserListState extends State<UserList> {
   final UserController userController = Get.put(UserController());
+  //GlobalKey<PaginatorState> paginatorGlobalKey = GlobalKey();
 
   @override
   void initState() {
@@ -71,7 +72,7 @@ class _UserListState extends State<UserList> {
           padding: const EdgeInsets.only(top: 16, bottom: 16),
           child: userController.isLoading.value
               ? const Center(child: CircularProgressIndicator())
-                : userController.searchList.isEmpty
+              : userController.searchList.isEmpty
                   ? const Center(
                       child: Text('NO USER FOUND (｡•́︿•̀｡)'),
                     )

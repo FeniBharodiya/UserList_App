@@ -19,7 +19,7 @@ class NetWorkConection {
               ),
               content: const ListTile(
                 title: Padding(
-                  padding: EdgeInsets.only(left: 25),
+                  padding: EdgeInsets.only(left: 30),
                   child: Text(
                     "No Internet    (｡ ╯︵╰｡ )",
                     style: TextStyle(fontSize: 29, fontWeight: FontWeight.w500),
@@ -43,7 +43,7 @@ class NetWorkConection {
                     children: <Widget>[
                       Center(
                         child: Padding(
-                          padding: const EdgeInsets.only(left: 38),
+                          padding: const EdgeInsets.only(left: 30),
                           child: ElevatedButton(
                             onPressed: () {
                               Navigator.of(context).pop();
@@ -59,7 +59,7 @@ class NetWorkConection {
                             // padding: EdgeInsets.only(
                             //     left: 45, right: 45, top: 15, bottom: 15),
                             child: const Text(
-                              "OK",
+                              "   OK   ",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 20),
                             ),
